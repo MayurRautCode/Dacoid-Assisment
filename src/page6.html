@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="output.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="main flex justify-center bg-black">
         <div class="page1 w-[350px] h-[650px] bg-[#FCFCFC] rounded-2xl">
@@ -19,7 +23,64 @@
                 </span>
 
             </div>
+            <div class="flex items-center mt-7 mb-9 ml-3">
+                <div class="h-5 w-5 bg-[#F1F1F1] rounded-md flex justify-center items-center"><i
+                        class="fa-solid fa-angle-left"></i></div>
+                <p class="text-xl text-black font-semibold pl-14">Workout Tracker</p>
+            </div>
+
+            <!-- warning -->
+            <div
+                class="bg-gradient-to-r from-[#98a8c7] to-[#FFFFFF] text-black w-80  h-12 rounded-lg ml-3 hover:border-blue-600 border-2 outline-none text-sm flex items-center mb-14">
+                <i class="fa-solid fa-triangle-exclamation text-2xl mr-3 ml-3"></i>
+                <p class="leading-4">You've burned fewer calories than yesterday. Time to get moving!</p>
+            </div>
+
+            <!-- item 2 -->
+
+            <div class="flex justify-between items-center mb-3">
+                <p class="text-lg text-black font-semibold ml-4">Upcoming Workout</p>
+                <p class="text-slate-800 text-sm mr-5">See more</p>
+            </div>
+
+            <!-- 3 item -->
+
+            <div class="bg-[#FFFFFF] text-black w-80  h-16 rounded-lg ml-3 hover:border-blue-600 hover:border-2 flex items-center drop-shadow-xl">
+                <img src="profile.png" class="h-12 w-12 rounded-full bg-[#819AFF26] bg-cover hover:border-blue-600 hover:border-2 ml-3">
+                <div class="ml-2">
+                    <P class="text-sm text-black font-semibold mb-1">Full Body Workout</P>
+                    <p class="text-slate-800 text-[10px]">Today 3pm</p>
+                </div>
+
+                <label class="inline-flex items-center cursor-pointer ml-[70px]">
+                    <input type="checkbox" value="" class="sr-only  peer">
+                    <div
+                        class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
+                    </div>
+                </label>
+
+            </div>
+
+            <!-- item 4 -->
+
+            <div class="bg-[#FFFFFF] text-black w-80  h-16 rounded-lg ml-3 hover:border-blue-600 hover:border-2 flex items-center mt-5 drop-shadow-xl">
+                <img src="pro2.png" class="h-12 w-12 rounded-full bg-[#819AFF26] bg-cover hover:border-blue-600 hover:border-2 ml-3">
+                <div class="ml-2">
+                    <P class="text-sm text-black font-semibold mb-1">Upper Body Workout</P>
+                    <p class="text-slate-800 text-[10px]">4 Feb, 3:30 pm</p>
+                </div>
+
+                <label class="inline-flex items-center cursor-pointer ml-[53px]">
+                    <input type="checkbox" value="" class="sr-only  peer">
+                    <div
+                        class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
+                    </div>
+                </label>
+
+            </div>
+
         </div>
     </div>
 </body>
+
 </html>
